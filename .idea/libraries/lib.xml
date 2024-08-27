@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/bcprov-jdk15on-1.56.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/bsh-2.0b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/jdom2-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/sshd-core-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/javassist-3.21.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/slf4j-simple-1.7.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/je-7.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/bcpg-jdk15on-1.56.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/HdrHistogram-2.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/org.osgi.core-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/commons-cli-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/javatuples-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/jline-3.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/slf4j-api-1.7.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/jdbm-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

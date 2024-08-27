@@ -1,0 +1,4 @@
+@echo off
+echo Stopping Q2
+echo <shutdown/> > ..\deploy\shutdown.xml
+

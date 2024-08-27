@@ -1,0 +1,7 @@
+
+@echo off
+cd /d %~dp0\..
+set CLASSPATH=classes;%CLASSPATH%
+set CLASSPATH=jpos-2.1.1-SNAPSHOT.jar;lib\*;%CLASSPATH%
+java -Dcom.sun.management.jmxremote -cp %CLASSPATH% bsh.Interpreter %*
+

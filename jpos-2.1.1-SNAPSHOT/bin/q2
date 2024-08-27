@@ -1,0 +1,9 @@
+
+@echo off
+setlocal
+set CLASSPATH=.;%~dp0\..\lib\*;%CLASSPATH%
+cd /d %~dp0\..
+rm -f deploy/shutdown.xml
+java -server -Xmx1G -Dcom.sun.management.jmxremote -jar jpos-2.1.1-SNAPSHOT.jar --pid=jpos.pid %*
+endlocal
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jpos-config>
+    <ISO8583>
+        <packager name="iso8583" class="org.jpos.iso.packager.GenericPackager">
+            <config>
+                <file>cfg/ISO8583.xml</file>
+            </config>
+        </packager>
+    </ISO8583>
+
+    <server class="org.jpos.q2.iso.QServer" logger="Q2"
+            name="tcp-server-8000" realm="tcp-server-8000">
+        <attr name="port" type="java.lang.Integer">8000</attr>
+        <channel class="org.jpos.iso.channel.ASCIIChannel"
+                 packager="iso8583"
+                 type="server"
+                 logger="Q2"
+                 realm="tcp-server-8000">
+            <property name="timeout" value="180000"/>
+        </channel>
+        <request-listener class="com.mynewpackage.ISOMessageHandler" logger="Q2"
+                          realm="incoming-request-listener"/>
+    </server>
+</jpos-config>

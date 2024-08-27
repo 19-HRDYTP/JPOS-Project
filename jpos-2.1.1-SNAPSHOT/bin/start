@@ -1,0 +1,4 @@
+@echo off
+cd /d %~dp0
+echo Starting Q2
+start /b q2.bat >nul 2>&1

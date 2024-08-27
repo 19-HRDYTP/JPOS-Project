@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jpos-2.1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/jpos-2.1.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/jpos-2.1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/jpos-2.1.1-SNAPSHOT/lib/jpos-2.1.1-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>
